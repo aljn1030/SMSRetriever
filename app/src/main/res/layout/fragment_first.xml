@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#BBFFFF"
+    android:orientation="vertical"
+    tools:context="sg.edu.rp.c346.smsretriever.FirstFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/tvFrag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Only SMS containing this number" />
+
+    <EditText
+        android:id="@+id/etfrag1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Retrieve SMS" />
+
+</LinearLayout>
